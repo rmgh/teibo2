@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21FA5EFF1AD4AFE40004E688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FA5EFE1AD4AFE40004E688 /* main.m */; };
+		21FA5F021AD4AFE40004E688 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FA5F011AD4AFE40004E688 /* AppDelegate.m */; };
+		21FA5F051AD4AFE40004E688 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FA5F041AD4AFE40004E688 /* ViewController.m */; };
+		21FA5F081AD4AFE40004E688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FA5F061AD4AFE40004E688 /* Main.storyboard */; };
+		21FA5F0A1AD4AFE40004E688 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FA5F091AD4AFE40004E688 /* Images.xcassets */; };
+		21FA5F0D1AD4AFE40004E688 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FA5F0B1AD4AFE40004E688 /* LaunchScreen.xib */; };
+		21FA5F191AD4AFE40004E688 /* teibo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FA5F181AD4AFE40004E688 /* teibo2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21FA5F131AD4AFE40004E688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21FA5EF11AD4AFE40004E688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21FA5EF81AD4AFE40004E688;
+			remoteInfo = teibo2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21FA5EF91AD4AFE40004E688 /* teibo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teibo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FA5EFD1AD4AFE40004E688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FA5EFE1AD4AFE40004E688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21FA5F001AD4AFE40004E688 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21FA5F011AD4AFE40004E688 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21FA5F031AD4AFE40004E688 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21FA5F041AD4AFE40004E688 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21FA5F071AD4AFE40004E688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21FA5F091AD4AFE40004E688 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21FA5F0C1AD4AFE40004E688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21FA5F121AD4AFE40004E688 /* teibo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teibo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FA5F171AD4AFE40004E688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FA5F181AD4AFE40004E688 /* teibo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teibo2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21FA5EF61AD4AFE40004E688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FA5F0F1AD4AFE40004E688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21FA5EF01AD4AFE40004E688 = {
+			isa = PBXGroup;
+			children = (
+				21FA5EFB1AD4AFE40004E688 /* teibo2 */,
+				21FA5F151AD4AFE40004E688 /* teibo2Tests */,
+				21FA5EFA1AD4AFE40004E688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21FA5EFA1AD4AFE40004E688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21FA5EF91AD4AFE40004E688 /* teibo2.app */,
+				21FA5F121AD4AFE40004E688 /* teibo2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21FA5EFB1AD4AFE40004E688 /* teibo2 */ = {
+			isa = PBXGroup;
+			children = (
+				21FA5F001AD4AFE40004E688 /* AppDelegate.h */,
+				21FA5F011AD4AFE40004E688 /* AppDelegate.m */,
+				21FA5F031AD4AFE40004E688 /* ViewController.h */,
+				21FA5F041AD4AFE40004E688 /* ViewController.m */,
+				21FA5F061AD4AFE40004E688 /* Main.storyboard */,
+				21FA5F091AD4AFE40004E688 /* Images.xcassets */,
+				21FA5F0B1AD4AFE40004E688 /* LaunchScreen.xib */,
+				21FA5EFC1AD4AFE40004E688 /* Supporting Files */,
+			);
+			path = teibo2;
+			sourceTree = "<group>";
+		};
+		21FA5EFC1AD4AFE40004E688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21FA5EFD1AD4AFE40004E688 /* Info.plist */,
+				21FA5EFE1AD4AFE40004E688 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21FA5F151AD4AFE40004E688 /* teibo2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				21FA5F181AD4AFE40004E688 /* teibo2Tests.m */,
+				21FA5F161AD4AFE40004E688 /* Supporting Files */,
+			);
+			path = teibo2Tests;
+			sourceTree = "<group>";
+		};
+		21FA5F161AD4AFE40004E688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21FA5F171AD4AFE40004E688 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21FA5EF81AD4AFE40004E688 /* teibo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FA5F1C1AD4AFE40004E688 /* Build configuration list for PBXNativeTarget "teibo2" */;
+			buildPhases = (
+				21FA5EF51AD4AFE40004E688 /* Sources */,
+				21FA5EF61AD4AFE40004E688 /* Frameworks */,
+				21FA5EF71AD4AFE40004E688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = teibo2;
+			productName = teibo2;
+			productReference = 21FA5EF91AD4AFE40004E688 /* teibo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21FA5F111AD4AFE40004E688 /* teibo2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FA5F1F1AD4AFE40004E688 /* Build configuration list for PBXNativeTarget "teibo2Tests" */;
+			buildPhases = (
+				21FA5F0E1AD4AFE40004E688 /* Sources */,
+				21FA5F0F1AD4AFE40004E688 /* Frameworks */,
+				21FA5F101AD4AFE40004E688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21FA5F141AD4AFE40004E688 /* PBXTargetDependency */,
+			);
+			name = teibo2Tests;
+			productName = teibo2Tests;
+			productReference = 21FA5F121AD4AFE40004E688 /* teibo2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21FA5EF11AD4AFE40004E688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = rm;
+				TargetAttributes = {
+					21FA5EF81AD4AFE40004E688 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					21FA5F111AD4AFE40004E688 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 21FA5EF81AD4AFE40004E688;
+					};
+				};
+			};
+			buildConfigurationList = 21FA5EF41AD4AFE40004E688 /* Build configuration list for PBXProject "teibo2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21FA5EF01AD4AFE40004E688;
+			productRefGroup = 21FA5EFA1AD4AFE40004E688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21FA5EF81AD4AFE40004E688 /* teibo2 */,
+				21FA5F111AD4AFE40004E688 /* teibo2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21FA5EF71AD4AFE40004E688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FA5F081AD4AFE40004E688 /* Main.storyboard in Resources */,
+				21FA5F0D1AD4AFE40004E688 /* LaunchScreen.xib in Resources */,
+				21FA5F0A1AD4AFE40004E688 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FA5F101AD4AFE40004E688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21FA5EF51AD4AFE40004E688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FA5F051AD4AFE40004E688 /* ViewController.m in Sources */,
+				21FA5F021AD4AFE40004E688 /* AppDelegate.m in Sources */,
+				21FA5EFF1AD4AFE40004E688 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FA5F0E1AD4AFE40004E688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FA5F191AD4AFE40004E688 /* teibo2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21FA5F141AD4AFE40004E688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21FA5EF81AD4AFE40004E688 /* teibo2 */;
+			targetProxy = 21FA5F131AD4AFE40004E688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21FA5F061AD4AFE40004E688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FA5F071AD4AFE40004E688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21FA5F0B1AD4AFE40004E688 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FA5F0C1AD4AFE40004E688 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21FA5F1A1AD4AFE40004E688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21FA5F1B1AD4AFE40004E688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21FA5F1D1AD4AFE40004E688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = teibo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21FA5F1E1AD4AFE40004E688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = teibo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21FA5F201AD4AFE40004E688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = teibo2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teibo2.app/teibo2";
+			};
+			name = Debug;
+		};
+		21FA5F211AD4AFE40004E688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = teibo2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teibo2.app/teibo2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21FA5EF41AD4AFE40004E688 /* Build configuration list for PBXProject "teibo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FA5F1A1AD4AFE40004E688 /* Debug */,
+				21FA5F1B1AD4AFE40004E688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FA5F1C1AD4AFE40004E688 /* Build configuration list for PBXNativeTarget "teibo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FA5F1D1AD4AFE40004E688 /* Debug */,
+				21FA5F1E1AD4AFE40004E688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21FA5F1F1AD4AFE40004E688 /* Build configuration list for PBXNativeTarget "teibo2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FA5F201AD4AFE40004E688 /* Debug */,
+				21FA5F211AD4AFE40004E688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21FA5EF11AD4AFE40004E688 /* Project object */;
+}
