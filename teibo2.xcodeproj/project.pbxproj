@@ -14,6 +14,9 @@
 		21FA5F0A1AD4AFE40004E688 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FA5F091AD4AFE40004E688 /* Images.xcassets */; };
 		21FA5F0D1AD4AFE40004E688 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FA5F0B1AD4AFE40004E688 /* LaunchScreen.xib */; };
 		21FA5F191AD4AFE40004E688 /* teibo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FA5F181AD4AFE40004E688 /* teibo2Tests.m */; };
+		21FA5F2A1AD60CA20004E688 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FA5F291AD60CA20004E688 /* 1.png */; };
+		21FA5F2D1AD610EC0004E688 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FA5F2C1AD610EC0004E688 /* 2.png */; };
+		21FA5F2F1AD610FC0004E688 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FA5F2E1AD610FC0004E688 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		21FA5F121AD4AFE40004E688 /* teibo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teibo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FA5F171AD4AFE40004E688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21FA5F181AD4AFE40004E688 /* teibo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teibo2Tests.m; sourceTree = "<group>"; };
+		21FA5F291AD60CA20004E688 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		21FA5F2C1AD610EC0004E688 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		21FA5F2E1AD610FC0004E688 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		21FA5EF01AD4AFE40004E688 = {
 			isa = PBXGroup;
 			children = (
+				21FA5F2B1AD60CB20004E688 /* images */,
 				21FA5EFB1AD4AFE40004E688 /* teibo2 */,
 				21FA5F151AD4AFE40004E688 /* teibo2Tests */,
 				21FA5EFA1AD4AFE40004E688 /* Products */,
@@ -117,6 +124,16 @@
 				21FA5F171AD4AFE40004E688 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21FA5F2B1AD60CB20004E688 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				21FA5F2E1AD610FC0004E688 /* 3.png */,
+				21FA5F2C1AD610EC0004E688 /* 2.png */,
+				21FA5F291AD60CA20004E688 /* 1.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FA5F2D1AD610EC0004E688 /* 2.png in Resources */,
 				21FA5F081AD4AFE40004E688 /* Main.storyboard in Resources */,
 				21FA5F0D1AD4AFE40004E688 /* LaunchScreen.xib in Resources */,
 				21FA5F0A1AD4AFE40004E688 /* Images.xcassets in Resources */,
+				21FA5F2F1AD610FC0004E688 /* 3.png in Resources */,
+				21FA5F2A1AD60CA20004E688 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +432,7 @@
 				21FA5F1E1AD4AFE40004E688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21FA5F1F1AD4AFE40004E688 /* Build configuration list for PBXNativeTarget "teibo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +441,7 @@
 				21FA5F211AD4AFE40004E688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
